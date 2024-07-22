@@ -28,4 +28,4 @@ io.on("connection", (socket) => {
 	});
 });
 
-http.listen(3001, () => console.log("Server is up 🚀 🚀"));
+http.listen(3002, () => console.log("Server is up 🚀 🚀"));
