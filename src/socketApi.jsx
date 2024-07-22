@@ -10,3 +10,8 @@ export const init = () => {
 
     socket.on("connect", ()=> console.log("Sunucuya basarili bir sekilde baglanildi."))
 }
+
+export const send = (color)=>{
+    //'' hangi kanal, ne gönderilecek
+    socket.emit('newColor',color)
+}
